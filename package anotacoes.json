@@ -1,0 +1,33 @@
+{
+  "name": "nlw-1", /*Define o nome do projeto*/
+  "version": "1.0.0", /*Atualiza a versão do projeto*/
+  "description": "", /*Descre/* o projeto*/
+  "main": "src/server.js",  /*aponta o caminho do server.js*/
+  "scripts": {
+    "start": "node src/server.js" /*Atalho para iniciar o servidor*/
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dataydes/nlw-1.git"
+  },
+  "keywords": [], /*palavras chaves para busca*/
+  "author": "Daniel", 
+  "license": "ISC", /*licença do projeto*/
+  "bugs": {
+    "url": "https://github.com/dataydes/nlw-1/issues"
+  },
+  "homepage": "https://github.com/dataydes/nlw-1#readme",
+  "dependencies": {
+    "express": "^4.17.1" /*versão do express utilizada*/
+  }
+}
+
+
+
+/*Após instalar o node.js e o git bash,
+//cria a pasta public e src,
+//no src cria o arquivo server.js
+//instala via terminal git bash os pacotes
+//npm init -y
+//npm install express
+//Para rodar o server > node src/server.js ou configure o atalho no package.json*/
