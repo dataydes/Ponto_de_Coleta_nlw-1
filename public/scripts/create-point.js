@@ -59,6 +59,7 @@ function handleSelectedItem(event) {
     // const alredySelected = selectedItems.findIndex( item => item == itemId ) //Com função reduzida.
     const alreadySelected = selectedItems.findIndex(function (item) { // função completa.
         const itemFound = item == itemId
+        console.log("Item ID: ", itemId)
         return itemFound
     })
 
@@ -75,7 +76,7 @@ function handleSelectedItem(event) {
     else {
         selectedItems.push(itemId)
     }
-    console.log(selectedItems)
+    console.log('selectedItems: ', selectedItems)
     //atualizar  o campo escondido com os itens selecionado.
     collectedItems.value = selectedItems
 
